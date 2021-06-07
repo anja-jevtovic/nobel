@@ -1,0 +1,35 @@
+main.py -> DAV #1 main code
+dash-app.py -> DAV #1 data visual generator
+geo-map-prototype.py -> DAV #2 prototype
+geo-map.py -> DAV #2 example 1
+geo-map-example.py -> DAV #2 example 2
+
+Concept Outline:
+
+Class #1
+  * DAV #1 concepts quick recap
+  * Json - what is it?
+  * GeoJson
+      * What is it?
+      * How it functions?
+      * How to create one?
+  * Practice time:
+      * Looking for data - data set should have → location (must be country) and some numbers at least
+      * Generating GeoJson
+      
+Class #2
+  * How to use it in Python/Plotly?
+  * Practice time: Generate data visual by using Plotly only (20-30 lines of code)
+  
+Class #3
+  * Practice time: Generate complete Dash/Plotly application
+  
+Enrichment Opportunity: Generate geo map for regions of one country or one part of the world
+
+LMS: Katacoda for learning code
+
+The available scopes in Dash/Plotly are: 'world', 'usa', 'europe', 'asia', 'africa', 'north america', 'south america'
+
+Useful Links:
+https://plotly.com/python/map-configuration/#named-map-scopes-and-country-subunits
+https://geojson-maps.ash.ms/ -> geoJson generator
